@@ -3,8 +3,8 @@ http://flask.pocoo.org/docs/0.12/tutorial/
 
 To run the website:
 1. Go to top folder where setup.py file exist and type:
-flask initdb
 pip3 install --editable .
+flask initdb
 export FLASK_APP=flaskr
 export FLASK_DEBUG=true
 flask run
